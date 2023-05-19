@@ -56,3 +56,18 @@
         text-align: center;
     }
 }
+
+/* RESPONSIVE MOBILE  */
+
+@media screen and (max-width: 640px){
+    .left{
+        align-items: center;
+    }
+    .right{
+        width: 100%;
+    }
+
+    .wrapper:nth-child(1){
+        width: 100%;
+    }
+}
